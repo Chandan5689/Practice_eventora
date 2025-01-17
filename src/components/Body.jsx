@@ -4,6 +4,8 @@ import ExploreIcons from "./ExploreIcons";
 import DiscoverEvents from "./DiscoverEvents";
 import Disclaimer from "./Disclaimer";
 import '../App.css'
+
+import DarkVariantExample from "./DarkVariantExample";
 function Body() {
     const slides = [
         { url: "https://images.pexels.com/photos/18465378/pexels-photo-18465378/free-photo-of-man-in-traditional-clothing-with-golden-hat-in-festival.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" },
@@ -23,6 +25,10 @@ function Body() {
             <DiscoverEvents SectionTitle='Events near you'/>
             <Disclaimer />
             <DiscoverEvents SectionTitle='Entertainment' />
+            <div className="mb-24">
+
+            <DarkVariantExample/>
+            </div>
         </div>
     )
 }
